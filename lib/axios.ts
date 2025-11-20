@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api = axios.create( { baseURL: process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"});
+const api = axios.create( { baseURL:"https://learning-platform-pe4oh36bp-jaseems-projects-fd2a3406.vercel.app"});
 
 export default api;
 
